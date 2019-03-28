@@ -10,10 +10,6 @@ export default class ChromeBoisDomain extends Component {
      drawChromeBoiAtCoords(x, y);
   };
 
-  handleToggleCycling = (event) => {
-    toggleCycling();
-  }
-
   handleKeyDown = (event) => {
     if (event.key === 'a') {
       resize('+')
