@@ -8,7 +8,7 @@ export default class ChromeBoisDomain extends Component {
      let x = event.clientX;
      let y = event.ClientY;
      drawChromeBoiAtCoords(x, y);
-  }
+  };
 
   handleKeyDown = (event) => {
     if (event.key === 'a') {
